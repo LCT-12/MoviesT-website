@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 @media only screen and (max-width: 768px) {
-.body {
+body {
     font-size: 16px; /* Giảm kích thước chữ trên di động */
     padding: 10px; /* Giảm khoảng cách lề */
 }
-.nav ul {
+nav ul {
     display: block; /* Chuyển menu từ ngang thành dọc */
 }
     
