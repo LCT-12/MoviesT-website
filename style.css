@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+.suse-{
+    font-family:"SUSE", sans-serif;
+}
+body{
+    font-family: "SUSE", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    white-space: normal;
+}
+body{
+    background-color: #141414;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    margin-left:-5px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+header{
+    background-color: black;
+}
+.logo{
+    margin-left: 25px;
+    margin-top: 0px;
+}
+.logo img{
+    height: 17vh;
+}
+.nav ul{
+    display: flex;
+    margin-right: -105px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 50px;
+    color: #90B7E4;
+    transition: all 0.5s ease;
+}
+.nav ul li a{
+    text-decoration: none;
+    background-color: teal;
+    border-radius: 0px;
+    padding: 44px 50px;
+    transition: all 0.75s ease;
+}
+.nav ul li a:hover{
+    background-color: black;
+    font-weight: bolder;
+}
+.user{
+    cursor: pointer;
+    color: teal;
+    margin-top: 0px;
+    margin-right: 40px;
+}
+.user a{
+    text-decoration: none;
+    color: #90B7E4;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 20px 30px;
+    transition: all 0.5s ease;
+}
+.user a:hover{
+    background-color: black;
+    color: teal;
+    font-weight: bolder;
+}
+.user i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 20px;
+}
+.heropage{
+    position: absolute;
+    color: #90B7E4;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+.inside-heropage{
+    line-height: 1.5;
+}
+.inside-heropage h1{
+    font-size: 40px;
+}
+.inside-heropage p{
+    font-size: 20px;
+}
+span{
+    color: teal;
+    font-weight: bold;
+    font-size: 40px;
+}
+.line1{
+    height: 2px;
+    color: rgb(18,241,241);
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+.poster{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.poster img{
+    height: 400px;
+    float: right;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255);
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.poster img:hover{
+    transform: scale(1.1);
+}
+.btn1{
+    margin-top: 50px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: #90B7E4;
+    padding: 10px 55px;
+    background: teal;
+    border-radius: 20px;
+}
+.btn1 a:hover{
+    background: black;
+    color: teal;
+}
+.btn1{
+    color: black;
+    padding: 0px 0px;
+}
+.latest-movie{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 500px;
+    padding: 10px 40px;
+}
+.latest-movie h1{
+    font-size: 25px;
+    color: teal;
+}
+.latest-container{
+    padding: 10px 0px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.latest-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.latest-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.latest-inside img:hover{
+    transform: scale(1.3);
+}
+.heading1{
+    color: #90B7E4;
+    line-height: 0.5;
+}
+.heading1 h4{
+    font-size: 15px;
+}
+.heading1 h6{
+    font-size: 12px;
+}
+.btn2{
+    margin-top: -40px;
+    margin-left: 150px;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 13px;
+    background: teal;
+    padding: 7px 7px;
+    color: #90B7E4;
+    border-radius: 15px;
+}
+.marvelpage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 850px;
+}
+.marvelpage h1{
+    font-size: 25px;
+    color: teal;
+}
+.marvelpage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.marvelpage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.marvelpage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.marvelpage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.marvelpage-inside img:hover{
+    transform: scale(1.3);
+}
+.imdb{
+    position: relative;
+    color:#90B7E4;
+    margin-top: -67px;
+    margin-left: 165px;
+    font-weight: bolder;
+    padding-top: -10px;
+    padding-left: 30px;
+    border-radius: 0px 0px 8px 0px;
+    background-color: black;
+    width: 50px;
+    text-align: center;
+    clip-path: inset(0 0 0 25px);
+}
+.more1{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more1 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.actionpage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 1100px;
+}
+.actionpage h1{
+    font-size: 25px;
+    color: teal;
+}
+.actionpage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.actionpage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.actionpage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.actionpage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.actionpage-inside img:hover{
+    transform: scale(1.3);
+}
+.more2{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more2 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.cartoonpage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 1350px;
+}
+.cartoonpage h1{
+    font-size: 25px;
+    color: teal;
+}
+.cartoonpage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.cartoonpage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.cartoonpage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.cartoonpage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.cartoonpage-inside img:hover{
+    transform: scale(1.3);
+}
+.more3{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more3 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.comedypage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 1600px;
+}
+.comedypage h1{
+    font-size: 25px;
+    color: teal;
+}
+.comedypage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.comedypage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.comedypage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.comedypage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.comedypage-inside img:hover{
+    transform: scale(1.3);
+}
+.more4{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more4 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.fantasypage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 1850px;
+}
+.fantasypage h1{
+    font-size: 25px;
+    color: teal;
+}
+.fantasypage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.fantasypage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.fantasypage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.fantasypage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.fantasypage-inside img:hover{
+    transform: scale(1.3);
+}
+.more5{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more5 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.horrorpage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 2100px;
+}
+.horrorpage h1{
+    font-size: 25px;
+    color: teal;
+}
+.horrorpage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.horrorpage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.horrorpage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.horrorpage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.horrorpage-inside img:hover{
+    transform: scale(1.3);
+}
+.more6{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more6 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.romanticpage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 2350px;
+}
+.romanticpage h1{
+    font-size: 25px;
+    color: teal;
+}
+.romanticpage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.romanticpage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.romanticpage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.romanticpage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.romanticpage-inside img:hover{
+    transform: scale(1.3);
+}
+.more7{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more7 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.thrillerpage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px 40px;
+    color: #90B7E4;
+    margin-top: 2600px;
+}
+.thrillerpage h1{
+    font-size: 25px;
+    color: teal;
+}
+.thrillerpage-container{
+    padding: 10px 0px;
+    display: inline-flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.thrillerpage-inside h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.thrillerpage-inside img{
+    width: 244px;
+    height: 122px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-right: 55px;
+}
+.thrillerpage-inside img{
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+.thrillerpage-inside img:hover{
+    transform: scale(1.3);
+}
+.more8{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1375px;
+}
+.more8 a{
+    color: teal;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.tv-shows{
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    background: black;
+    color: #90B7E4;
+    margin-top: 3000px;
+}
+.tv-showpage{
+    padding: 10px 40px;
+    line-height: 2;
+    text-align: center;
+}
+.tv-showpage h1{
+    color: teal;
+}
+.tv-showpage p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.line{
+    height: 2px;
+    background: white;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: -800px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.tv-showpagecontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inside-tv-showpage img{
+    padding: 10px 10px;
+    height: 380px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.inside-tv-showpage img:hover{
+    transform: scale(1.3);
+}
+.heading2 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.tv-y p{
+    margin-top: -200px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tv-showpagebtn{
+    position: absolute;
+    height: 30%;
+    background: black;
+    width: 100%;
+    margin-top: 3800px;
+    text-align: center;
+}
+.tv-showpagebtn a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: teal;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.tv-showpagebtn i{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.bodybtn{
+    margin-top: 2925px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bodybtn a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background: teal;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.bodybtn i{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer{
+    position: absolute;
+    margin-top: 3880px;
+    height: 20vh;
+    color: #90B7E4;
+    background: #141414;
+    width: 100%;
+}
+.logopart h1{
+    margin-left: 70px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+.logopart img{
+    height: 15vh;
+    margin-top: -93px;
+    margin-left: 0px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.socials i{
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+.btn4{
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.btn4 a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    background: teal;
+    border-radius: 30px;
+}
+.scroll{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: teal;
+    border-radius: 50px;
+    bottom: 100px;
+    right: 25px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+}
+.scroll i{
+    color: black;
+}
