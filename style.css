@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
-@media only screen and (max-width: 768px) {
-body {
-    font-size: 16px; /* Giảm kích thước chữ trên di động */
-    padding: 10px; /* Giảm khoảng cách lề */
-}
-nav ul {
-    display: block; /* Chuyển menu từ ngang thành dọc */
-}
-    
 .suse-{
     font-family:"SUSE", sans-serif;
 }
@@ -66,14 +57,16 @@ header{
 }
 .nav ul li a{
     text-decoration: none;
-    background-color: teal;
+    background-color: black;
     border-radius: 0px;
     padding: 44px 50px;
     transition: all 0.75s ease;
 }
 .nav ul li a:hover{
-    background-color: black;
+    background-color: #90B7E4;
     font-weight: bolder;
+    border-radius: 50px;
+    color: black;
 }
 .user{
     cursor: pointer;
@@ -151,6 +144,7 @@ span{
     padding: 10px 55px;
     background: teal;
     border-radius: 20px;
+    transition: all 0.5s ease;
 }
 .btn1 a:hover{
     background: black;
